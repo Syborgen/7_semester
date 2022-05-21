@@ -1,0 +1,29 @@
+Actor Пользователь
+
+
+participant "Bot : mainBot"
+
+participant "SearcherBot : mainSearcher"
+
+participant "DatabaseHelper : DB"
+
+database database
+
+
+
+Пользователь -> "Bot : mainBot" : Добавить ключевую фразу к связи
+Пользователь <- "Bot : mainBot" : Запрос информации о связи
+Пользователь -> "Bot : mainBot" : Информация о связи
+"Bot : mainBot" -> "SearcherBot : mainSearcher" : Проверить наличие связи
+"SearcherBot : mainSearcher" -> "DatabaseHelper : DB" : Проверить наличие связи
+"DatabaseHelper : DB" -> database : Запрос информации о связи
+database --> "DatabaseHelper : DB" : Результат запроса
+"DatabaseHelper : DB" --> "SearcherBot : mainSearcher" : Состояние связи (есть)
+"SearcherBot : mainSearcher" --> "Bot : mainBot" : Состояние связи (есть)
+Пользователь <- "Bot : mainBot" : Запрос ключевой фразы
+Пользователь ->  "Bot : mainBot" : Ключевая фраза
+"Bot : mainBot" -> "SearcherBot : mainSearcher" : Добавить новую ключевую фразу
+"SearcherBot : mainSearcher" -> "DatabaseHelper : DB" : Добавить новую ключевую фразу
+"DatabaseHelper : DB" -> database : Добавить новую ключевую фразу
+
+

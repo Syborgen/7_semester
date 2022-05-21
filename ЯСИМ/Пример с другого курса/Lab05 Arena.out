@@ -1,0 +1,282 @@
+
+                                      ARENA Simulation Results
+                                    Sergey - License: STUDENT   
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :12/ 8/2015
+Analyst: Sergey                                                      Model revision date:12/ 8/2015
+
+Replication ended at time      : 0.83333333 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Dannye datchikov.VATime                         --         --         --         --          0
+Dannye datchikov.NVATime                        --         --         --         --          0
+Dannye datchikov.WaitTime                       --         --         --         --          0
+Dannye datchikov.TranTime                       --         --         --         --          0
+Dannye datchikov.OtherTime                      --         --         --         --          0
+Dannye datchikov.TotalTime                      --         --         --         --          0
+Dannye datchikov.VACost                         --         --         --         --          0
+Dannye datchikov.NVACost                        --         --         --         --          0
+Dannye datchikov.WaitCost                       --         --         --         --          0
+Dannye datchikov.TranCost                       --         --         --         --          0
+Dannye datchikov.OtherCost                      --         --         --         --          0
+Dannye datchikov.TotalCost                      --         --         --         --          0
+Komandi manipulyatoram.VATime               .00595     (Insuf)    .00369     .00762         69    
+Komandi manipulyatoram.NVATime              .00000     (Insuf)    .00000     .00000         69    
+Komandi manipulyatoram.WaitTime             .00195     (Insuf)    .00000     .01317         69    
+Komandi manipulyatoram.TranTime             .00000     (Insuf)    .00000     .00000         69    
+Komandi manipulyatoram.OtherTime            .00000     (Insuf)    .00000     .00000         69    
+Komandi manipulyatoram.TotalTime            .00790     (Insuf)    .00398     .01802         69    
+Komandi manipulyatoram.VACost               .02542     (Insuf)    .01688     .03231         69    
+Komandi manipulyatoram.NVACost              .00000     (Insuf)    .00000     .00000         69    
+Komandi manipulyatoram.WaitCost             .00000     (Insuf)    .00000     .00000         69    
+Komandi manipulyatoram.TranCost             .00000     (Insuf)    .00000     .00000         69    
+Komandi manipulyatoram.OtherCost            .00000     (Insuf)    .00000     .00000         69    
+Komandi manipulyatoram.TotalCost            .02542     (Insuf)    .01688     .03231         69    
+Normalizovanniye dannie datchikov.VATime        --         --         --         --          0
+Normalizovanniye dannie datchikov.NVATime       --         --         --         --          0
+Normalizovanniye dannie datchikov.WaitTime      --         --         --         --          0
+Normalizovanniye dannie datchikov.TranTime      --         --         --         --          0
+Normalizovanniye dannie datchikov.OtherTim      --         --         --         --          0
+Normalizovanniye dannie datchikov.TotalTim      --         --         --         --          0
+Normalizovanniye dannie datchikov.VACost        --         --         --         --          0
+Normalizovanniye dannie datchikov.NVACost       --         --         --         --          0
+Normalizovanniye dannie datchikov.WaitCost      --         --         --         --          0
+Normalizovanniye dannie datchikov.TranCost      --         --         --         --          0
+Normalizovanniye dannie datchikov.OtherCos      --         --         --         --          0
+Normalizovanniye dannie datchikov.TotalCos      --         --         --         --          0
+Sformirovanniye soobsheniya.VATime          .03958     (Insuf)    .00957     .04229         75    
+Sformirovanniye soobsheniya.NVATime         .00000     (Insuf)    .00000     .00000         75    
+Sformirovanniye soobsheniya.WaitTime        .00325     (Insuf)    .00229     .00977         75    
+Sformirovanniye soobsheniya.TranTime        .00000     (Insuf)    .00000     .00000         75    
+Sformirovanniye soobsheniya.OtherTime       .00000     (Insuf)    .00000     .00000         75    
+Sformirovanniye soobsheniya.TotalTime       .02055     (Insuf)    .00859     .02321         75    
+Sformirovanniye soobsheniya.VACost          .19743     (Insuf)    .04080     .21028         75    
+Sformirovanniye soobsheniya.NVACost         .00000     (Insuf)    .00000     .00000         75    
+Sformirovanniye soobsheniya.WaitCost        5.6305E-04 (Insuf)    .00000     .00239         75    
+Sformirovanniye soobsheniya.TranCost        .00000     (Insuf)    .00000     .00000         75    
+Sformirovanniye soobsheniya.OtherCost       .00000     (Insuf)    .00000     .00000         75    
+Sformirovanniye soobsheniya.TotalCost       .19800     (Insuf)    .04080     .21093         75    
+Raspoznaniye deistviya polzovateley.VATime      --         --         --         --          0
+Raspoznaniye deistviya polzovateley.NVATim      --         --         --         --          0
+Raspoznaniye deistviya polzovateley.WaitTi      --         --         --         --          0
+Raspoznaniye deistviya polzovateley.TranTi      --         --         --         --          0
+Raspoznaniye deistviya polzovateley.OtherT      --         --         --         --          0
+Raspoznaniye deistviya polzovateley.TotalT      --         --         --         --          0
+Raspoznaniye deistviya polzovateley.VACost      --         --         --         --          0
+Raspoznaniye deistviya polzovateley.NVACos      --         --         --         --          0
+Raspoznaniye deistviya polzovateley.WaitCo      --         --         --         --          0
+Raspoznaniye deistviya polzovateley.TranCo      --         --         --         --          0
+Raspoznaniye deistviya polzovateley.OtherC      --         --         --         --          0
+Raspoznaniye deistviya polzovateley.TotalC      --         --         --         --          0
+Deistviia polzovatlei.VATime                    --         --         --         --          0
+Deistviia polzovatlei.NVATime                   --         --         --         --          0
+Deistviia polzovatlei.WaitTime                  --         --         --         --          0
+Deistviia polzovatlei.TranTime                  --         --         --         --          0
+Deistviia polzovatlei.OtherTime                 --         --         --         --          0
+Deistviia polzovatlei.TotalTime                 --         --         --         --          0
+Deistviia polzovatlei.VACost                    --         --         --         --          0
+Deistviia polzovatlei.NVACost                   --         --         --         --          0
+Deistviia polzovatlei.WaitCost                  --         --         --         --          0
+Deistviia polzovatlei.TranCost                  --         --         --         --          0
+Deistviia polzovatlei.OtherCost                 --         --         --         --          0
+Deistviia polzovatlei.TotalCost                 --         --         --         --          0
+Batch 2.Queue.WaitingTime                   3.4272E-05 (Insuf)    .00000     2.3924E-04    150    
+Batch 2.Queue.WaitingCost                   1.4808E-05 (Insuf)    .00000     2.3924E-04    150    
+Sbor uvedomleniy.Queue.WaitingTime          2.2036E-04 1.2498E-05 .00000     6.8977E-04    375    
+Sbor uvedomleniy.Queue.WaitingCost          .00000     .00000     .00000     .00000        375    
+Batch 3.Queue.WaitingTime                   2.2412E-04 (Insuf)    .00000     5.8840E-04    150    
+Batch 3.Queue.WaitingCost                   2.1475E-04 (Insuf)    .00000     5.8840E-04    150    
+Vyvesti soobsheniye na ekrane smartfona.Qu  5.5338E-06 (Insuf)    .00000     2.7308E-04     75    
+Vyvesti soobsheniye na ekrane smartfona.Qu  .00000     (Insuf)    .00000     .00000         75    
+Razdelit soobsheniya po tipu.Queue.Waiting  .00000     (Insuf)    .00000     .00000         75    
+Razdelit soobsheniya po tipu.Queue.Waiting  .00000     (Insuf)    .00000     .00000         75    
+Peredat dannye na server.Queue.WaitingTime  .00000     (Insuf)    .00000     .00000         74    
+Peredat dannye na server.Queue.WaitingCost  .00000     (Insuf)    .00000     .00000         74    
+Diskretizaciya.Queue.WaitingTime            8.2476E-06 (Insuf)    .00000     2.9377E-04     67    
+Diskretizaciya.Queue.WaitingCost            8.2476E-06 (Insuf)    .00000     2.9377E-04     67    
+Otpravit soobsheniya specslujbam.Queue.Wai  9.6710E-07 (Insuf)    .00000     7.2532E-05     75    
+Otpravit soobsheniya specslujbam.Queue.Wai  .00000     (Insuf)    .00000     .00000         75    
+Otseivaniye pomeh.Queue.WaitingTime         1.6124E-05 (Insuf)    .00000     3.1618E-04     67    
+Otseivaniye pomeh.Queue.WaitingCost         1.6124E-05 (Insuf)    .00000     3.1618E-04     67    
+Vypolnit komandy ustroistvami obychnoy man  .00208     (Insuf)    .00000     .01317         35    
+Vypolnit komandy ustroistvami obychnoy man  .00000     (Insuf)    .00000     .00000         35    
+Formirovat soobsheniye oshibki.Queue.Waiti  .00000     (Insuf)    .00000     .00000          3    
+Formirovat soobsheniye oshibki.Queue.Waiti  .00000     (Insuf)    .00000     .00000          3    
+Peredat soobsheniye na otpravku.Queue.Wait  2.4599E-06 (Insuf)    .00000     1.8449E-04     75    
+Peredat soobsheniye na otpravku.Queue.Wait  .00000     (Insuf)    .00000     .00000         75    
+Sjatiye.Queue.WaitingTime                   2.0015E-05 (Insuf)    .00000     3.8554E-04     67    
+Sjatiye.Queue.WaitingCost                   2.0015E-05 (Insuf)    .00000     3.8554E-04     67    
+Schitat deystviya.Queue.WaitingTime         .00000     (Insuf)    .00000     .00000          7    
+Schitat deystviya.Queue.WaitingCost         .00000     (Insuf)    .00000     .00000          7    
+Vyvesti soobsheniye na ekrane plansheta.Qu  4.7942E-04 (Insuf)    3.6820E-04 6.0529E-04     75    
+Vyvesti soobsheniye na ekrane plansheta.Qu  .00000     (Insuf)    .00000     .00000         75    
+Vyvesto soobsheniye na ekrane chasov.Queue  3.2255E-04 (Insuf)    2.0091E-04 4.7958E-04     75    
+Vyvesto soobsheniye na ekrane chasov.Queue  .00000     (Insuf)    .00000     .00000         75    
+Vypolnit komandy ustroystvami obychnogo us  .00199     (Insuf)    .00000     .00979         37    
+Vypolnit komandy ustroystvami obychnogo us  .00000     (Insuf)    .00000     .00000         37    
+Klassificirovat deystviya.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000          7    
+Klassificirovat deystviya.Queue.WaitingCos  .00000     (Insuf)    .00000     .00000          7    
+Batch 4.Queue.WaitingTime                   .00000     (Insuf)    .00000     .00000         74    
+Batch 4.Queue.WaitingCost                   .00000     (Insuf)    .00000     .00000         74    
+Sformirovat optimalonoye resheniye.Queue.W  3.6415E-05 (Insuf)    .00000     9.8177E-04     73    
+Sformirovat optimalonoye resheniye.Queue.W  3.6415E-05 (Insuf)    .00000     9.8177E-04     73    
+Otpravit SMS soobsheniya polzovatelyam.Que  .00000     (Insuf)    .00000     .00000         75    
+Otpravit SMS soobsheniya polzovatelyam.Que  .00000     (Insuf)    .00000     .00000         75    
+Sjat danniye o deistviyah.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000          7    
+Sjat danniye o deistviyah.Queue.WaitingCos  .00000     (Insuf)    .00000     .00000          7    
+Peredat komandy raznim manipulatoram.Queue  .00000     (Insuf)    .00000     .00000         72    
+Peredat komandy raznim manipulatoram.Queue  .00000     (Insuf)    .00000     .00000         72    
+Vyvesti soobsheniye na ekrane TV.Queue.Wai  2.7303E-04 (Insuf)    1.8338E-04 3.5737E-04     75    
+Vyvesti soobsheniye na ekrane TV.Queue.Wai  .00000     (Insuf)    .00000     .00000         75    
+Shifrovat daniye.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000         74    
+Shifrovat daniye.Queue.WaitingCost          .00000     (Insuf)    .00000     .00000         74    
+Deshifrovat komandy.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         73    
+Deshifrovat komandy.Queue.WaitingCost       .00000     (Insuf)    .00000     .00000         73    
+Normalizaciya.Queue.WaitingTime             1.6400E-05 (Insuf)    .00000     3.3534E-04     67    
+Normalizaciya.Queue.WaitingCost             1.6400E-05 (Insuf)    .00000     3.3534E-04     67    
+Dobavleniye ID ustroystva.Queue.WaitingTim  1.5888E-05 (Insuf)    .00000     3.5422E-04     67    
+Dobavleniye ID ustroystva.Queue.WaitingCos  1.5888E-05 (Insuf)    .00000     3.5422E-04     67    
+Raspoznat deystviya.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000          7    
+Raspoznat deystviya.Queue.WaitingCost       .00000     (Insuf)    .00000     .00000          7    
+Vyvesti soobsheniye na ekrane komputerov.Q  2.2405E-04 (Insuf)    1.4628E-04 3.0974E-04     75    
+Vyvesti soobsheniye na ekrane komputerov.Q  .00000     (Insuf)    .00000     .00000         75    
+Razdelit komandy po vidam manipulyatorov.Q  .00000     (Insuf)    .00000     .00000         72    
+Razdelit komandy po vidam manipulyatorov.Q  .00000     (Insuf)    .00000     .00000         72    
+Peredat komandy na ustroistva vyvoda i man  .00000     (Insuf)    .00000     .00000         73    
+Peredat komandy na ustroistva vyvoda i man  .00000     (Insuf)    .00000     .00000         73    
+Sformirovat danniye.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000          7    
+Sformirovat danniye.Queue.WaitingCost       .00000     (Insuf)    .00000     .00000          7    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Dannye datchikov.WIP                        .11877     (Insuf)    .00000     2.0000     .00000    
+Komandi manipulyatoram.WIP                  .69542     (Insuf)    .00000     4.0000     .00000    
+Normalizovanniye dannie datchikov.WIP       2.9778     (Insuf)    .00000     11.000     4.0000    
+Sformirovanniye soobsheniya.WIP             .56535     (Insuf)    .00000     17.000     .00000    
+Raspoznaniye deistviya polzovateley.WIP     .31475     (Insuf)    .00000     5.0000     .00000    
+Deistviia polzovatlei.WIP                   .01191     (Insuf)    .00000     1.0000     .00000    
+Systema manipulirovaniya.NumberBusy         .47167     (Insuf)    .00000     1.0000     .00000    
+Systema manipulirovaniya.NumberScheduled    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Systema manipulirovaniya.Utilization        .47167     (Insuf)    .00000     1.0000     .00000    
+Ustroistvo raspoznavaniya deistviy polzova  .01191     (Insuf)    .00000     1.0000     .00000    
+Ustroistvo raspoznavaniya deistviy polzova  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Ustroistvo raspoznavaniya deistviy polzova  .01191     (Insuf)    .00000     1.0000     .00000    
+Lokalniy computer.NumberBusy                1.5131     (Insuf)    .00000     5.0000     2.0000    
+Lokalniy computer.NumberScheduled           5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Lokalniy computer.Utilization               .30263     (Insuf)    .00000     1.0000     .40000    
+Systema uvedomleniya.NumberBusy             .22127     (Insuf)    .00000     3.0000     .00000    
+Systema uvedomleniya.NumberScheduled        3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Systema uvedomleniya.Utilization            .07376     (Insuf)    .00000     1.0000     .00000    
+Ustroistvo raspoznavania signalov.NumberBu  .11261     (Insuf)    .00000     1.0000     .00000    
+Ustroistvo raspoznavania signalov.NumberSc  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Ustroistvo raspoznavania signalov.Utilizat  .11261     (Insuf)    .00000     1.0000     .00000    
+Vychislitelniy server.NumberBusy            .12167     (Insuf)    .00000     1.0000     .00000    
+Vychislitelniy server.NumberScheduled       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Vychislitelniy server.Utilization           .12167     (Insuf)    .00000     1.0000     .00000    
+Batch 2.Queue.NumberInQueue                 .00617     (Insuf)    .00000     2.0000     .00000    
+Sbor uvedomleniy.Queue.NumberInQueue        .09916     (Insuf)    .00000     5.0000     .00000    
+Batch 3.Queue.NumberInQueue                 .04034     (Insuf)    .00000     2.0000     .00000    
+Vyvesti soobsheniye na ekrane smartfona.Qu  4.9805E-04 (Insuf)    .00000     1.0000     .00000    
+Razdelit soobsheniya po tipu.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
+Peredat dannye na server.Queue.NumberInQue  .00000     (Insuf)    .00000     .00000     .00000    
+Diskretizaciya.Queue.NumberInQueue          6.6311E-04 (Insuf)    .00000     1.0000     .00000    
+Otpravit soobsheniya specslujbam.Queue.Num  8.7039E-05 (Insuf)    .00000     1.0000     .00000    
+Otseivaniye pomeh.Queue.NumberInQueue       .00130     (Insuf)    .00000     1.0000     .00000    
+Vypolnit komandy ustroistvami obychnoy man  .08742     (Insuf)    .00000     2.0000     .00000    
+Formirovat soobsheniye oshibki.Queue.Numbe  .00000     (Insuf)    .00000     .00000     .00000    
+Peredat soobsheniye na otpravku.Queue.Numb  2.2139E-04 (Insuf)    .00000     1.0000     .00000    
+Sjatiye.Queue.NumberInQueue                 .00161     (Insuf)    .00000     1.0000     .00000    
+Schitat deystviya.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+Vyvesti soobsheniye na ekrane plansheta.Qu  .04315     (Insuf)    .00000     1.0000     .00000    
+Vyvesto soobsheniye na ekrane chasov.Queue  .02903     (Insuf)    .00000     1.0000     .00000    
+Vypolnit komandy ustroystvami obychnogo us  .08844     (Insuf)    .00000     2.0000     .00000    
+Klassificirovat deystviya.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Batch 4.Queue.NumberInQueue                 .00000     (Insuf)    .00000     1.0000     .00000    
+Sformirovat optimalonoye resheniye.Queue.N  .00319     (Insuf)    .00000     1.0000     .00000    
+Otpravit SMS soobsheniya polzovatelyam.Que  .00000     (Insuf)    .00000     .00000     .00000    
+Sjat danniye o deistviyah.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Peredat komandy raznim manipulatoram.Queue  .00000     (Insuf)    .00000     .00000     .00000    
+Vyvesti soobsheniye na ekrane TV.Queue.Num  .02457     (Insuf)    .00000     1.0000     .00000    
+Shifrovat daniye.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+Deshifrovat komandy.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Normalizaciya.Queue.NumberInQueue           .00132     (Insuf)    .00000     1.0000     .00000    
+Dobavleniye ID ustroystva.Queue.NumberInQu  .00128     (Insuf)    .00000     1.0000     .00000    
+Raspoznat deystviya.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Vyvesti soobsheniye na ekrane komputerov.Q  .02016     (Insuf)    .00000     1.0000     .00000    
+Razdelit komandy po vidam manipulyatorov.Q  .00000     (Insuf)    .00000     .00000     .00000    
+Peredat komandy na ustroistva vyvoda i man  .00000     (Insuf)    .00000     .00000     .00000    
+Sformirovat danniye.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Dannye datchikov.NumberIn                   67.000    
+Dannye datchikov.NumberOut                  67.000    
+Komandi manipulyatoram.NumberIn             72.000    
+Komandi manipulyatoram.NumberOut            72.000    
+Normalizovanniye dannie datchikov.NumberIn  199.00    
+Normalizovanniye dannie datchikov.NumberOu  195.00    
+Sformirovanniye soobsheniya.NumberIn        750.00    
+Sformirovanniye soobsheniya.NumberOut       750.00    
+Raspoznaniye deistviya polzovateley.Number  21.000    
+Raspoznaniye deistviya polzovateley.Number  21.000    
+Deistviia polzovatlei.NumberIn              7.0000    
+Deistviia polzovatlei.NumberOut             7.0000    
+Systema manipulirovaniya.NumberSeized       72.000    
+Systema manipulirovaniya.ScheduledUtilizat  .47167    
+Systema manipulirovaniya.BusyCost           1.5722    
+Systema manipulirovaniya.IdleCost           .44028    
+Systema manipulirovaniya.UsageCost          .00000    
+Ustroistvo raspoznavaniya deistviy polzova  35.000    
+Ustroistvo raspoznavaniya deistviy polzova  .01191    
+Ustroistvo raspoznavaniya deistviy polzova  .04962    
+Ustroistvo raspoznavaniya deistviy polzova  .82341    
+Ustroistvo raspoznavaniya deistviy polzova  .00000    
+Lokalniy computer.NumberSeized              441.00    
+Lokalniy computer.ScheduledUtilization      .30263    
+Lokalniy computer.BusyCost                  8.7824    
+Lokalniy computer.IdleCost                  14.528    
+Lokalniy computer.UsageCost                 .00000    
+Systema uvedomleniya.NumberSeized           675.00    
+Systema uvedomleniya.ScheduledUtilization   .07376    
+Systema uvedomleniya.BusyCost               .73757    
+Systema uvedomleniya.IdleCost               2.3156    
+Systema uvedomleniya.UsageCost              .00000    
+Ustroistvo raspoznavania signalov.NumberSe  335.00    
+Ustroistvo raspoznavania signalov.Schedule  .11261    
+Ustroistvo raspoznavania signalov.BusyCost  .46921    
+Ustroistvo raspoznavania signalov.IdleCost  .73949    
+Ustroistvo raspoznavania signalov.UsageCos  .00000    
+Vychislitelniy server.NumberSeized          73.000    
+Vychislitelniy server.ScheduledUtilization  .12167    
+Vychislitelniy server.BusyCost              .00000    
+Vychislitelniy server.IdleCost              .00000    
+Vychislitelniy server.UsageCost             3.6500    
+All Entities.VACost                         16.740    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .04223    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      16.782    
+All Resources.BusyCost                      11.611    
+All Resources.IdleCost                      18.847    
+All Resources.UsageCost                     3.6500    
+All Resources.TotalCost                     34.108    
+System.TotalCost                            35.629    
+System.NumberOut                            144.00    
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.

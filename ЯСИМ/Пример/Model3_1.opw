@@ -1,0 +1,49 @@
+[RESOURCES]
+Gril
+Ckorovoda
+Kastrulja
+[VARIABLES]
+Upakovka3.NumberOut
+Gusi?.NumberOut True
+Rabota_po_braku.NumberOut Dup
+Garit.WaitTime
+Reklamacia.NumberOut
+Rabota_po_braku.NumberOut Orig
+Holodez.VATime
+Otbrakovka_Color.NumberOut True
+Kuri?.NumberOut True
+Gril_bol.NumberOut
+Kuri?.NumberOut False
+Spisanie.NumberOut
+Holodez.NumberOut
+Parit.VATime
+Reklamacia.NumberIn
+Garit.VATime
+Spisanie.VATime
+Upakovka2.NumberOut
+Privoz_Kuri.NumberOut
+Otpravka13.NumberOut
+Gusi?.NumberOut False
+Parit.NumberIn
+Otpravka2.NumberOut
+Holodez.NumberIn
+Proverka_vesa.NumberOut False
+Privoz_gusi.NumberOut
+Gril_bol.NumberIn
+Otbrakovka_Color.NumberOut False
+Holodez.WaitTime
+Upakovka1.NumberOut
+Upakovka4.NumberOut
+Brak.NumberOut
+Spisanie.NumberIn
+Proverka_vesa.NumberOut True
+Gril_bol.VATime
+Parit.WaitTime
+Garit.NumberOut
+Konec_braka.NumberOut
+Parit.NumberOut
+Gril_bol.WaitTime
+Garit.NumberIn
+Otpravka1.NumberOut
+Otpravka4.NumberOut
+Reklamacia.VATime

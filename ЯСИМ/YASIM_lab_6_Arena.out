@@ -1,0 +1,79 @@
+
+                                      ARENA Simulation Results
+                                    Arsenii - License: 7328734345
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :12/20/2021
+Analyst: Rockwell Automation                                         Model revision date:12/20/2021
+
+Replication ended at time      : 24.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Air object.VATime                           .04613     (Insuf)    .00000     .28695         36    
+Air object.NVATime                          .00000     (Insuf)    .00000     .00000         36    
+Air object.WaitTime                         .00000     (Insuf)    .00000     .00000         36    
+Air object.TranTime                         .00000     (Insuf)    .00000     .00000         36    
+Air object.OtherTime                        .00000     (Insuf)    .00000     .00000         36    
+Air object.TotalTime                        .04613     (Insuf)    .00000     .28695         36    
+Misile.VATime                                   --         --         --         --          0
+Misile.NVATime                                  --         --         --         --          0
+Misile.WaitTime                                 --         --         --         --          0
+Misile.TranTime                                 --         --         --         --          0
+Misile.OtherTime                                --         --         --         --          0
+Misile.TotalTime                                --         --         --         --          0
+Reload request.VATime                           --         --         --         --          0
+Reload request.NVATime                          --         --         --         --          0
+Reload request.WaitTime                         --         --         --         --          0
+Reload request.TranTime                         --         --         --         --          0
+Reload request.OtherTime                        --         --         --         --          0
+Reload request.TotalTime                        --         --         --         --          0
+Combine ammo pack 2.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         10    
+Destroy automatically.Queue.WaitingTime     .00000     (Insuf)    .00000     .00000         18    
+Combine ammo pack.Queue.WaitingTime         .00000     (Insuf)    .00000     .00000         10    
+Destroy manually.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000         16    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Air object.WIP                              .28519     (Insuf)    .00000     11.000     .00000    
+Misile.WIP                                  .02083     (Insuf)    .00000     1.0000     .00000    
+Reload request.WIP                          .00000     (Insuf)    .00000     .00000     .00000    
+Automatic missile.NumberBusy                6.2298     (Insuf)    .00000     10.000     8.0000    
+Automatic missile.NumberScheduled           10.000     (Insuf)    10.000     10.000     10.000    
+Automatic missile.Utilization               .62299     (Insuf)    .00000     1.0000     .80000    
+Missiles.NumberBusy                         4.6272     (Insuf)    .00000     10.000     6.0000    
+Missiles.NumberScheduled                    10.000     (Insuf)    10.000     10.000     10.000    
+Missiles.Utilization                        .46273     (Insuf)    .00000     1.0000     .60000    
+Combine ammo pack 2.Queue.NumberInQueue     .00000     (Insuf)    .00000     10.000     .00000    
+Destroy automatically.Queue.NumberInQueue   .00000     (Insuf)    .00000     .00000     .00000    
+Combine ammo pack.Queue.NumberInQueue       .00000     (Insuf)    .00000     10.000     .00000    
+Destroy manually.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Air object.NumberIn                         56.000    
+Air object.NumberOut                        56.000    
+Misile.NumberIn                             2.0000    
+Misile.NumberOut                            2.0000    
+Reload request.NumberIn                     .00000    
+Reload request.NumberOut                    .00000    
+Automatic missile.NumberSeized              18.000    
+Automatic missile.ScheduledUtilization      .62299    
+Missiles.NumberSeized                       16.000    
+Missiles.ScheduledUtilization               .46273    
+System.NumberOut                            36.000    
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.

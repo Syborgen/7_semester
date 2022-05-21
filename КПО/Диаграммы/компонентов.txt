@@ -1,0 +1,95 @@
+folder include {
+  [SearcherBot.hpp]
+  [utility.hpp]
+}
+
+
+folder libs{
+  folder bot{
+    folder include1{
+      [Bot.hpp]
+      [BotUI.hpp]
+    }
+    folder src1{
+      [Bot.cpp]
+      [BotUI.cpp]
+    
+    }
+  }
+  
+  folder db{
+    folder include2{
+      [DatabaseHelper.hpp]
+    }
+    folder src2{
+      [DatabaseHelper.cpp]
+    
+    }
+    
+  }
+  
+  folder td{
+    folder include3{
+      [TelegramSearcher.hpp]
+    }
+    folder src3{
+      [TelegramSearcher.cpp]
+    
+    }
+  }
+
+}
+
+[TelegramSearcher.cpp] --> [TelegramSearcher.hpp]
+[Bot.cpp] --> [Bot.hpp]
+[BotUI.cpp] --> [BotUI.hpp]
+[DatabaseHelper.cpp] --> [DatabaseHelper.hpp]
+libs --> include
+
+Версия 2
+
+folder src {
+    [SearcherBot.cpp]
+    [utility.cpp]
+    [main.cpp]
+}
+
+folder include {
+  [SearcherBot.hpp]
+  [utility.hpp]
+}
+
+
+folder libs{
+  folder bot{
+    folder include1{
+      [Bot.hpp]
+      [BotUI.hpp]
+    }
+    folder src1{
+      [Bot.cpp]
+      [BotUI.cpp]
+    
+    }
+  }
+  
+  folder db{
+    folder include2{
+      [DatabaseHelper.hpp]
+    }
+    
+  }
+  
+  folder td{
+    folder include3{
+      [TelegramSearcher.hpp]
+    }
+  }
+
+}
+
+[Bot.cpp] --> [Bot.hpp]
+[BotUI.cpp] --> [BotUI.hpp]
+libs --> include
+[SearcherBot.hpp] --> [SearcherBot.cpp]
+[utility.hpp] --> [utility.cpp]

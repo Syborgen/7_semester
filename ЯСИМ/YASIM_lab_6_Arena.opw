@@ -1,0 +1,37 @@
+[RESOURCES]
+Automatic missile
+Missiles
+[VARIABLES]
+Create airplane.NumberOut
+Destroy manually.NumberOut
+Take automatical missiles.NumberOut Dup
+Take missiles.NumberOut Orig
+is success 1.NumberOut True
+Destroy automatically.NumberOut
+Reloading missiles
+Take missiles.NumberOut Dup
+Reloading automatic missiles
+Dispose 11.NumberOut
+Is enought ammo 1.NumberOut False
+Miss2.NumberOut
+Reload 2.NumberIn
+is success 1.NumberOut False
+Destroy manually.NumberIn
+Reload 2.NumberOut
+Destroyed2.NumberOut
+Take automatical missiles.NumberOut Orig
+is success 2.NumberOut True
+Is enought ammo 1.NumberOut True
+Is automatic.NumberOut False
+Is enought ammo 2.NumberOut False
+Destroy automatically.NumberIn
+Miss1.NumberOut
+is success 2.NumberOut False
+Destroyed1.NumberOut
+Dispose 10.NumberOut
+Combine ammo pack 2.NumberOut
+Combine ammo pack.NumberOut
+Reload 1.NumberOut
+Is enought ammo 2.NumberOut True
+Reload 1.NumberIn
+Is automatic.NumberOut True

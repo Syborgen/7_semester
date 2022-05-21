@@ -1,0 +1,92 @@
+[RESOURCES]
+Systema manipulirovaniya
+Ustroistvo raspoznavaniya deistviy polzovatelya
+Lokalniy computer
+Systema uvedomleniya
+Ustroistvo raspoznavania signalov
+Vychislitelniy server
+[VARIABLES]
+Sformirovat optimalonoye resheniye.NumberIn
+Sozdat zayavki na otpravku vsem ustroystvam.NumberOut Dup
+Normalizaciya.NumberOut
+Separate 3.NumberOut Dup
+Vyvesti soobsheniye na ekrane TV.NumberIn
+Batch 4.NumberOut
+Sozdat zayavki na otpravku vsem ustroystvam.NumberOut Orig
+Vypolnit komandy ustroistvami obychnoy manipulatsyi.NumberOut
+Dobavleniye ID ustroystva.NumberIn
+Separate 8.NumberOut Dup
+Dobavleniye ID ustroystva.NumberOut
+Vypolnit komandy ustroistvami obychnoy manipulatsyi.NumberIn
+Vyvesti soobsheniye na ekrane smartfona.NumberIn
+Peredat dannye na server.NumberOut
+Vypolnit komandy ustroystvami obychnogo ustraneniya problem.NumberIn
+Vyvesti soobsheniye na ekrane TV.NumberOut
+Vypolnit komandy ustroystvami obychnogo ustraneniya problem.NumberOut
+Otseivaniye pomeh.NumberIn
+Razniye vidy manipulatorov.NumberOut True
+Sjatiye.NumberOut
+Sjatiye.NumberIn
+Separate 2.NumberOut Orig
+Avtomaticheskoe ustranenie problem.NumberOut
+Separate 4.NumberOut Dup
+Separate 6.NumberOut Orig
+Uvedomlenie polzovatelei i spetcsluzhb.NumberOut
+Batch 3.NumberOut
+Otpravit soobsheniya specslujbam.NumberIn
+Klassificirovat deystviya.NumberOut
+Schitat deystviya.NumberOut
+Vyvesto soobsheniye na ekrane chasov.NumberIn
+Razdelit soobsheniya po tipu.NumberIn
+Deshifrovat komandy.NumberOut
+Peredat dannye na server.NumberIn
+Deshifrovat komandy.NumberIn
+Peredat komandy raznim manipulatoram.NumberIn
+Vyvesti soobsheniye na ekrane plansheta.NumberIn
+Vyvesto soobsheniye na ekrane chasov.NumberOut
+Vyvesti soobsheniye na ekrane komputerov.NumberOut
+Normalizaciya.NumberIn
+Razdelit soobsheniya po tipu.NumberOut
+Separate 3.NumberOut Orig
+Otseivaniye pomeh.NumberOut
+Shifrovat daniye.NumberIn
+Peredat komandy na ustroistva vyvoda i manipulatsyi.NumberOut
+Separate 7.NumberOut Orig
+Vyvesti soobsheniye na ekrane smartfona.NumberOut
+Peredat soobsheniye na otpravku.NumberOut
+Raspoznat deystviya.NumberIn
+Sformirovat optimalonoye resheniye.NumberOut
+Batch 2.NumberOut
+Razdelit komandy po vidam manipulyatorov.NumberOut
+Razdelit komandy po vidam manipulyatorov.NumberIn
+Sjat danniye o deistviyah.NumberIn
+Klassificirovat deystviya.NumberIn
+Vyvesti soobsheniye na ekrane komputerov.NumberIn
+Diskretizaciya.NumberOut
+Vyvesti soobsheniye na ekrane plansheta.NumberOut
+Separate 6.NumberOut Dup
+Otpravit SMS soobsheniya polzovatelyam.NumberIn
+Shifrovat daniye.NumberOut
+Otpravit SMS soobsheniya polzovatelyam.NumberOut
+Diskretizaciya.NumberIn
+Separate 4.NumberOut Orig
+Sformirovat danniye.NumberIn
+Peredat soobsheniye na otpravku.NumberIn
+Separate 2.NumberOut Dup
+Sjat danniye o deistviyah.NumberOut
+Raspoznat deystviya.NumberOut
+Razniye vidy manipulatorov.NumberOut False
+Est ly oshibka.NumberOut False
+Schitat deystviya.NumberIn
+Separate 8.NumberOut Orig
+Separate 7.NumberOut Dup
+Deistviia polzovatelei.NumberOut
+Peredat komandy na ustroistva vyvoda i manipulatsyi.NumberIn
+Peredat komandy raznim manipulatoram.NumberOut
+Est ly oshibka.NumberOut True
+Otpravit soobsheniya specslujbam.NumberOut
+Formirovat soobsheniye oshibki.NumberOut
+Sformirovat danniye.NumberOut
+Formirovat soobsheniye oshibki.NumberIn
+Dannye datchikov sistemy.NumberOut
+Sbor uvedomleniy.NumberOut

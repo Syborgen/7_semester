@@ -1,0 +1,31 @@
+Class "SearcherBot : mainSearcher"{
+  TelegramSearcher engine_ = tgSearcher;
+  bot::Bot bot_ = mainBot;
+  db::DatabaseHelper database_ = DB;
+  static constexpr size_t BUTTONS_COUNT = 5;
+}
+
+CLass "Bot : mainBot"{
+  std::list<std::pair<ChatID, Step>> next_steps_ = {{12341234, funcPtr}}
+}
+
+Class "DatabaseHelper : DB" {
+  std::unique_ptr<Impl> pimpl_ = *pgSqlDB;
+}
+
+Class "TelegramSearcher : tgSearcher" {
+  std::unordered_map<std::int64_t, std::string> chat_title_ = {914514 : "MyChat"};
+  bool are_authorized_ = true;
+  bool need_restart_ = false;
+  td::ClientManager::RequestId query_id_ = 55;
+  std::unique_ptr<td::ClientManager> client_manager_ = managerPtr;
+  td::ClientManager::ClientId client_id_ = 3456174;
+  td::ClientManager::RequestId authorization_query_id_ = 36845612;
+  std::atomic<bool> is_run_fetch_loop = true;
+  std::recursive_mutex mutex_ = lock;
+  std::unordered_map<td::ClientManager::RequestId, std::function<voidObject>> handlers_ = {{31 : MessageHandler}}; 
+}
+
+"SearcherBot : mainSearcher" *-left- "DatabaseHelper : DB"
+"SearcherBot : mainSearcher" *-up- "Bot : mainBot"
+"SearcherBot : mainSearcher" *-- "TelegramSearcher : tgSearcher"

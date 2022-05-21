@@ -1,0 +1,154 @@
+Class SearcherBot{
+
+  SearcherBot();
+  TelegramSearcher engine_;
+  bot::Bot bot_;
+  db::DatabaseHelper database_;
+  std::unordered_map<std::string, Step> admin_commands_;
+  std::unordered_map<std::string, Step> user_commands_;
+  static constexpr size_t BUTTONS_COUNT = 5;
+}
+
+CLass Bot{
+
+  Bot(const std::string& token);
+  void RegistryNextStep(ChatID chat_id, Step handler);
+  bool TryNextStep(const TgBot::Message::Ptr& message);
+  std::list<std::pair<ChatID, Step>> next_steps_;
+  std::list<std::pair<ChatID, Step>>::const_iterator FindNextStep(
+      ChatID chat_id);
+  bool IsFindNextStep(
+      std::list<std::pair<ChatID, Step>>::const_iterator it) const;
+}
+
+Class DatabaseHelper {
+  std::unique_ptr<Impl> pimpl_;
+  DatabaseHelper(ConnectionParams params);
+  DatabaseHelper();
+  DatabaseHelper(DatabaseHelper&&);
+  DatabaseHelper& operator=(DatabaseHelper&&);
+  ~DatabaseHelper();
+  DatabaseHelper(const DatabaseHelper&) = delete;
+  DatabaseHelper& operator=(const DatabaseHelper&) = delete;
+  bool IsOpen() const noexcept;
+  std::string RenewLeast(UserID user_id, int32_t number_of_days);
+  User::ROLE GetRole(UserID telegram_user_id);
+  bool IsFirstUser();
+  bool IsAdmin(UserID user_id);
+  bool IsNone(UserID user_id);
+  void InsertUser(const User& user);
+  bool DeleteUser(UserID user_id);
+  std::vector<Admin> Admins();
+  std::vector<User> Users();
+  bool IsRentExpired(UserID user_id);
+  void SubmitApplication(Application& application);
+  std::vector<Application> Applications();
+  std::optional<Application> DeleteApplication(UserID user_id);
+  bool IsUnregister(UserID user_id);
+  SERIAL GetRelationId(UserID user_id, ChatID observer, ChatID receiver);
+  bool ExistsReceiverFromUser(UserID user_id, ChatID receiver_id);
+  bool CreateSubscribe(UserID user_id, ChatID observer, ChatID receiver);
+  bool DeleteSubscribe(UserID user_id, ChatID observer, ChatID receiver);
+  std::vector<Subscribe> Subscribes(ChatID observer);
+  std::vector<ChatID> ReceiversOfUser(UserID user_id);
+  std::vector<Subscribe> SubscribesOfReceiver(ChatID receiver);
+  bool IsRelationExist(UserID user_id, ChatID observer, ChatID receiver);
+  void AppendKeyPhraseForSubscribe(SERIAL id, const std::string& key_phrase);
+  void RemoveKeyPhraseForSubscribe(SERIAL id, const std::string& key_phrase);
+  bool InsertChannel(ChatID chat_id);
+  void AppendKeyPhraseForChannel(ChatID channel, const std::string& key_phrase);
+  void RemoveKeyPhraseFromChannel(ChatID channel,
+                                  const std::string& key_phrase);
+  Channel GetChannel(ChatID channel_id);
+  bool DeleteChannel(ChatID channel_id);
+  bool InsertChatForSearch(UserID user_id, ChatID chat_id);
+  bool DeleteChatForSearch(UserID user_id, ChatID chat_id);
+  std::vector<ChatID> GetChannelsForSearch(UserID user_id);
+  void CreateLog(UserID user_id, MESSAGE_TYPE message_type,
+                 const std::string& message);
+}
+
+Class TelegramSearcher {
+  std::unordered_map<std::int64_t, std::string> chat_title_;
+  bool are_authorized_{false};
+  bool need_restart_{false};
+  td::ClientManager::RequestId query_id_{};
+  std::unique_ptr<td::ClientManager> client_manager_;
+  td::ClientManager::ClientId client_id_{};
+  td_api::object_ptr<td_api::AuthorizationState> authorization_state_{};
+  td::ClientManager::RequestId authorization_query_id_{};
+  std::atomic<bool> is_run_fetch_loop{true};
+  std::function<void td_api::updateNewMessage& update_new_message>
+      new_message_handler_;
+      
+  explicit TelegramSearcher();
+  ~TelegramSearcher();
+  void Restart();
+  bool NeedRestart() const;
+  td_api::searchMessages::ReturnType SearchMessages(const std::string& query);
+  td_api::getMessageLink::ReturnType GetMessageLink(
+      const td_api::object_ptr<td_api::message>& message);
+  bool JoinPublicChannel(const std::string& username);
+  bool JoinPrivateChannel(const std::string& invite_link);
+  bool LeaveFromChannel(const std::string& title);
+  void StopFetchLoop();
+  std::optional<std::pair<std::int64_t, std::string>> SearchPublicChat(
+      const std::string& query);
+  td_api::getChat::ReturnType GetChatInfo(std::int64_t chat_id);
+  std::vector<std::string> GetMessagesLinksFromChat(std::int64_t chat_id,
+                                                    const std::string& query);
+  std::vector<td_api::object_ptr<td_api::message>> GetMessagesFromChat(
+      std::int64_t chat_id, const std::string& query);
+  void SetNewMessageHandler(
+      std::function<void(td_api::updateNewMessage& update_new_message)>
+          handler);
+  void ForwardMessage(td_api::object_ptr<td_api::message>& message,
+                      std::int64_t forward_chat_id);
+  std::string GetText(td_api::object_ptr<td_api::message>& message);
+  td_api::object_ptr<td_api::chatAdministrators> GetAdministrators(
+      ChatID chat_id);
+  bool IsChannel(td_api::object_ptr<td_api::chat>& chat);
+}
+
+SearcherBot *-left- DatabaseHelper
+SearcherBot *-- Bot
+SearcherBot *-- TelegramSearcher
+
+
+Версия 2
+
+Class SearcherBot{
+
+  SearcherBot();
+  TelegramSearcher engine_;
+  bot::Bot bot_;
+  db::DatabaseHelper database_;
+  std::unordered_map<std::string, Step> admin_commands_;
+  std::unordered_map<std::string, Step> user_commands_;
+  static constexpr size_t BUTTONS_COUNT = 5;
+}
+
+CLass Bot{
+
+  Bot(const std::string& token);
+  void RegistryNextStep(ChatID chat_id, Step handler);
+  bool TryNextStep(const TgBot::Message::Ptr& message);
+  std::list<std::pair<ChatID, Step>> next_steps_;
+  std::list<std::pair<ChatID, Step>>::const_iterator FindNextStep(
+      ChatID chat_id);
+  bool IsFindNextStep(
+      std::list<std::pair<ChatID, Step>>::const_iterator it) const;
+}
+
+Class DatabaseHelper {
+
+}
+
+Class TelegramSearcher {
+  
+}
+
+SearcherBot *-left- DatabaseHelper
+SearcherBot *-- Bot
+SearcherBot *-- TelegramSearcher
+

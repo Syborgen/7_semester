@@ -1,0 +1,125 @@
+SIMAN Run Controller.
+
+320.2 Minutes>
+                                      ARENA Simulation Results
+                                    Arsenii - License: 7328734345
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :11/13/2021
+Analyst: Rockwell Automation                                         Model revision date:11/13/2021
+
+Replication ended at time      : 320.2 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Holodez.TotalTimePerEntity                  2.1464     (Insuf)    1.1323     4.0999         53    
+Garit.VATimePerEntity                       12.432     (Insuf)    11.111     14.704         24    
+Spisanie.VATimePerEntity                    53.138     (Insuf)    39.450     78.993         16    
+Reklamacia.TotalTimePerEntity               58.881     (Insuf)    35.071     81.264         16    
+Gril_bol.WaitTimePerEntity                  13.210     (Insuf)    .00000     30.265         24    
+Parit.TotalTimePerEntity                    25.872     (Insuf)    21.400     31.884          3    
+Holodez.WaitTimePerEntity                   .18537     (Insuf)    .00000     2.2354         53    
+Parit.VATimePerEntity                       3.1229     (Insuf)    2.9789     3.3209          3    
+Garit.WaitTimePerEntity                     13.561     (Insuf)    .00000     32.138         24    
+Gril_bol.VATimePerEntity                    10.000     (Insuf)    10.000     10.000         24    
+Holodez.VATimePerEntity                     1.9610     (Insuf)    1.0786     2.8236         53    
+Gril_bol.TotalTimePerEntity                 23.210     (Insuf)    10.000     40.265         24    
+Reklamacia.VATimePerEntity                  58.881     (Insuf)    35.071     81.264         16    
+Parit.WaitTimePerEntity                     22.749     (Insuf)    18.421     28.815          3    
+Garit.TotalTimePerEntity                    25.993     (Insuf)    12.948     43.356         24    
+Spisanie.TotalTimePerEntity                 53.138     (Insuf)    39.450     78.993         16    
+gusi.VATime                                 60.666     (Insuf)    30.000     128.47         25    
+gusi.NVATime                                .00000     (Insuf)    .00000     .00000         25    
+gusi.WaitTime                               49.022     (Insuf)    .14496     113.47         25    
+gusi.TranTime                               .00000     (Insuf)    .00000     .00000         25    
+gusi.OtherTime                              .00000     (Insuf)    .00000     .00000         25    
+gusi.TotalTime                              52.463     (Insuf)    30.000     69.559         25    
+kuri.VATime                                 116.29     (Insuf)    91.468     157.49          7    
+kuri.NVATime                                .00000     (Insuf)    .00000     .00000          7    
+kuri.WaitTime                               5.4516     (Insuf)    .46951     9.4563          7    
+kuri.TranTime                               .00000     (Insuf)    .00000     .00000          7    
+kuri.OtherTime                              .00000     (Insuf)    .00000     .00000          7    
+kuri.TotalTime                              67.375     (Insuf)    52.486     81.264          7    
+Gril_bol.Queue.WaitingTime                  13.324     (Insuf)    .00000     30.265         25    
+Parit.Queue.WaitingTime                     22.749     (Insuf)    18.421     28.815          3    
+Garit.Queue.WaitingTime                     14.088     (Insuf)    .00000     32.138         25    
+Upakovka1.Queue.WaitingTime                 12.361     (Insuf)    .00000     30.857         24    
+Holodez.Queue.WaitingTime                   .18537     (Insuf)    .00000     2.2354         53    
+Upakovka2.Queue.WaitingTime                     --         --         --         --          0
+Upakovka3.Queue.WaitingTime                 10.358     (Insuf)    .00000     24.302         24    
+Upakovka4.Queue.WaitingTime                     --         --         --         --          0
+Konec_braka.Queue.WaitingTime               2.3728     (Insuf)    .00000     12.412         32    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+gusi.WIP                                    9.5316     (Insuf)    .00000     19.000     11.000    
+kuri.WIP                                    32.186     (Insuf)    .00000     61.000     59.000    
+Gril.NumberBusy                             .76675     (Insuf)    .00000     1.0000     1.0000    
+Gril.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Gril.Utilization                            .76675     (Insuf)    .00000     1.0000     1.0000    
+Ckorovoda.NumberBusy                        .97941     (Insuf)    .00000     1.0000     1.0000    
+Ckorovoda.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Ckorovoda.Utilization                       .97941     (Insuf)    .00000     1.0000     1.0000    
+Kastrulja.NumberBusy                        .32460     (Insuf)    .00000     1.0000     .00000    
+Kastrulja.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kastrulja.Utilization                       .32460     (Insuf)    .00000     1.0000     .00000    
+Gril_bol.Queue.NumberInQueue                1.1564     (Insuf)    .00000     4.0000     3.0000    
+Parit.Queue.NumberInQueue                   .27865     (Insuf)    .00000     2.0000     1.0000    
+Garit.Queue.NumberInQueue                   1.3185     (Insuf)    .00000     5.0000     4.0000    
+Upakovka1.Queue.NumberInQueue               .92654     (Insuf)    .00000     3.0000     .00000    
+Holodez.Queue.NumberInQueue                 .03068     (Insuf)    .00000     1.0000     .00000    
+Upakovka2.Queue.NumberInQueue               1.6460     (Insuf)    .00000     3.0000     3.0000    
+Upakovka3.Queue.NumberInQueue               .77641     (Insuf)    .00000     3.0000     .00000    
+Upakovka4.Queue.NumberInQueue               27.620     (Insuf)    .00000     53.000     53.000    
+Konec_braka.Queue.NumberInQueue             .23714     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Garit Accum Wait Time                       325.46    
+Reklamacia Number Out                       16.000    
+Holodez Accum VA Time                       103.93    
+Gril_bol Number Out                         24.000    
+Spisanie Number Out                         16.000    
+Holodez Number Out                          53.000    
+Parit Accum VA Time                         9.3687    
+Reklamacia Number In                        18.000    
+Garit Accum VA Time                         298.37    
+Spisanie Accum VA Time                      850.21    
+Parit Number In                             4.0000    
+Holodez Number In                           53.000    
+Gril_bol Number In                          28.000    
+Holodez Accum Wait Time                     9.8248    
+Spisanie Number In                          18.000    
+Gril_bol Accum VA Time                      240.00    
+Parit Accum Wait Time                       68.248    
+Garit Number Out                            24.000    
+Parit Number Out                            3.0000    
+Gril_bol Accum Wait Time                    317.04    
+Garit Number In                             29.000    
+Reklamacia Accum VA Time                    942.09    
+gusi.NumberIn                               104.00    
+gusi.NumberOut                              93.000    
+kuri.NumberIn                               78.000    
+kuri.NumberOut                              19.000    
+Gril.NumberSeized                           25.000    
+Gril.ScheduledUtilization                   .76675    
+Ckorovoda.NumberSeized                      28.000    
+Ckorovoda.ScheduledUtilization              .97941    
+Kastrulja.NumberSeized                      53.000    
+Kastrulja.ScheduledUtilization              .32460    
+System.NumberOut                            32.000    
+
+
+Simulation run time: 3.20 minutes.
+Simulation run complete.

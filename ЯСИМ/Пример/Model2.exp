@@ -1,0 +1,38 @@
+PROJECT,      "Unnamed Project","TC",,,No,Yes,Yes,Yes,No,No,No,No,No,No;
+
+VARIABLES:    Process 1.NumberOut,CLEAR(Statistics),CATEGORY("Exclude"):
+              Dispose 1.NumberOut,CLEAR(Statistics),CATEGORY("Exclude"):
+              Process 1.WIP,CLEAR(System),CATEGORY("Exclude-Exclude"):
+              Create 1.NumberOut,CLEAR(Statistics),CATEGORY("Exclude"):
+              Process 1.NumberIn,CLEAR(Statistics),CATEGORY("Exclude");
+
+PICTURES:     Picture.Airplane:
+              Picture.Green Ball:
+              Picture.Blue Page:
+              Picture.Telephone:
+              Picture.Blue Ball:
+              Picture.Yellow Page:
+              Picture.EMail:
+              Picture.Yellow Ball:
+              Picture.Bike:
+              Picture.Report:
+              Picture.Van:
+              Picture.Widgets:
+              Picture.Envelope:
+              Picture.Fax:
+              Picture.Truck:
+              Picture.Letter:
+              Picture.Box:
+              Picture.Woman:
+              Picture.Package:
+              Picture.Man:
+              Picture.Diskette:
+              Picture.Boat:
+              Picture.Red Page:
+              Picture.Green Page:
+              Picture.Red Ball;
+
+REPLICATE,    1,,,Yes,Yes,,,,24,Hours,No,No,,,Yes;
+
+ENTITIES:     Entity 1,Picture.Report,0.0,0.0,0.0,0.0,0.0,0.0,AUTOSTATS(Yes,,);
+
